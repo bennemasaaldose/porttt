@@ -1,0 +1,207 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+.hero-image {
+    background-image: url('https://img.freepik.com/premium-photo/comfortable-workspace-with-laptop-computer-notebook-coffee-cup-beige-background_35674-10182.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    color: #1a0e02;
+    text-shadow: #f8f8f8;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-image h1 {
+    font-size: 3em;
+    margin: 10;
+}
+
+.hero-image p {
+    font-size: 2em;
+    margin: 0;
+}
+
+/* Main Section Styling */
+section {
+    margin: 50px auto;
+    background-color: #f5f5dc; /* Beige background */
+    
+    border-radius: 20px; /* Rounded corners */
+    padding: 30px;
+    width: 66.67%; /* 2/3rd of the screen width */
+}
+
+/* About Me Section Styling */
+#about .about-content {
+    display: flex;
+    align-items: center;
+}
+
+#about .about-text {
+    flex: 1;
+    text-align: left;
+    padding-right: 20px;
+}
+
+#about .about-image {
+    position: relative;
+}
+
+#about .about-image img {
+    width: 200px; /* Adjust the size of the photo */
+    height: 200px;
+    border-radius: 100%; /* Make it a circle */
+}
+
+/* Styled image upload */
+.image-upload-label {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; /* Updated position to allow for relative positioning within the section */
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%; /* Make it a circle */
+    padding: 10px;
+}
+
+.image-upload-label img {
+    width: 100%; /* Adjusted to fill the container */
+    max-width: 150px; /* Set a maximum width to avoid distortion */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make it a circle */
+    margin-bottom: 5px;
+}
+
+.image-upload-label span {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+
+/* Custom Font Class */
+.custom-font {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Additional styles can be added here */
+}
+
+/* Adjust font sizes for different elements */
+.custom-font h1 {
+    font-size: 2em;
+}
+
+.custom-font h3 {
+    font-size: 1.5em;
+}
+
+.custom-font h5 {
+    font-size: 1.2em;
+}
+
+.custom-font p {
+    font-size: 1em;
+}
+/* Add the following CSS for the social icons */
+#socials .social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#socials .social-icons a {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 0 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+#socials .social-icons a {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 0 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+#socials .social-icons a:hover {
+    transform: scale(1.1);
+}
+#socials .social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#socials .social-icons a {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 0 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    color: #a4520e; /* Change this to your desired color */
+}
+
+#socials .social-icons a:hover {
+    transform: scale(1.1);
+    color: #1b1002; /* Change this to your desired hover color */
+}
+/* Additional CSS for the project layout */
+#projects .project-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#projects .project-text {
+    flex: 1;
+    text-align: center;
+}
+
+#projects .project-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-left: 25px; /* Adjust the margin as needed */
+}
+
+#projects .project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#contacts ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contacts li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#contacts a {
+    color: #6e4e12; /* Use your preferred color */
+    text-decoration: none;
+    font-weight: bold;
+}
